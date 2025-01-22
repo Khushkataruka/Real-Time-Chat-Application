@@ -33,6 +33,6 @@ two terminals
 1. cd frontend
 2. npm run dev
 
-add the frontend url on origin in backend/src/lib/socket.js and backend/src/index.js in case if deployed
+add the frontend url on origin in backend/src/lib/socket.js and backend/src/index.js in case if deployed by default localhost:5173
 
-add the backend url on frontend/src/stores/useAuthStore and set baseUrl=backendurl
+add the backend url on frontend/src/stores/useAuthStore and set baseUrl=backendurl also in frontend/src/lib/axios.js change to backend url/api
