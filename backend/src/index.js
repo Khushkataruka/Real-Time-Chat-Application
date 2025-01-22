@@ -16,7 +16,7 @@ connect(url);
 
 // Middleware
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:5173", //frontend url
     credentials: true
 }))
 app.use(cookieParser()); // Use cookie-parser middleware
