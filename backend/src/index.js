@@ -14,6 +14,7 @@ const url = process.env.MONGODB_URI;
 // Connect to the database
 connect(url);
 
+
 // Middleware
 app.use(cors(
     // origin: "https://real-time-chat-application-smoky.vercel.app", //frontend url
