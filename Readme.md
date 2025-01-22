@@ -26,12 +26,14 @@ Build the app
 two terminals
 
 1st terminal
-1. cd backend 
-2. npm start
+1. cd backend
+2. npm i
+3. npm start
 
 2nd terminal
 1. cd frontend
-2. npm run dev
+2. npm i
+3. npm run dev
 
 add the frontend url on origin in backend/src/lib/socket.js and backend/src/index.js in case if deployed by default localhost:5173
 
