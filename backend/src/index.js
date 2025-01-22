@@ -16,8 +16,8 @@ connect(url);
 
 // Middleware
 app.use(cors({
-    origin: "https://real-time-chat-application-smoky.vercel.app", //frontend url
-    credentials: true
+    // origin: "https://real-time-chat-application-smoky.vercel.app", //frontend url
+    // credentials: true
 }))
 app.use(cookieParser()); // Use cookie-parser middleware
 app.use(express.urlencoded({ extended: true }));
